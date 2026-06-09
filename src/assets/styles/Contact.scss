@@ -1,0 +1,140 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    background-color: white !important;
+    color: #050f0b !important;
+    border: 1px solid #333 !important;
+    opacity: 1 !important;
+  }
+
+  button:hover {
+    background-color: #5000ca !important;
+    color: white !important;
+    border: 1px solid #5000ca !important;
+  }
+
+  button.Mui-disabled {
+    background-color: white !important;
+    color: #5000ca !important;
+    border: 1px solid #5000ca !important;
+    opacity: 1 !important;
+  }
+
+  fieldset {
+    background-color: #ffffff;
+  }
+
+  input, textarea {
+    color: #050f0b !important;
+    z-index: 1;
+  }
+
+  .MuiInputLabel-root {
+    color: #333 !important;
+    background-color: transparent;
+    padding: 0 4px;
+  }
+
+  .MuiInputLabel-shrink {
+    background-color: #ffffff !important;
+    padding: 0 4px !important;
+    border-radius: 3px !important;
+  }
+
+  .MuiInputLabel-root.MuiFormLabel-filled {
+    color: #5000ca !important;
+    background-color: #ffffff !important;
+    padding: 0 4px;
+    border-radius: 3px;
+  }
+
+  .MuiInputLabel-root.Mui-focused {
+    color: #5000ca !important;
+    background-color: #ffffff !important;
+    padding: 0 4px;
+    border-radius: 3px;
+  }
+
+  .MuiOutlinedInput-root fieldset {
+    border-color: #333 !important;
+  }
+
+  .MuiOutlinedInput-root:hover fieldset {
+    border-color: #5000ca !important;
+  }
+
+  .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #5000ca !important;
+    border-width: 2px !important;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.form-bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  min-height: 50px;
+
+  .form-bottom-message {
+    flex: 1;
+    margin: 0 !important;
+    text-align: left;
+  }
+
+  .form-bottom-button {
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+}
+
+.success-message {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: #c62828;
+  background-color: #ffebee;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1rem;
+}
