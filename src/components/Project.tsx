@@ -17,21 +17,20 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/dolly-2021/social-bee" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/dolly-2021/social-bee" target="_blank" rel="noreferrer"><h2>Social Application</h2></a>
-                <p>Developed a social media application to connect, share/post what's happening around , and discover new people across the globe.</p>
-
+                <a href="https://github.com/dollykaur/distributed-notification-service" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/dollykaur/distributed-notification-service" target="_blank" rel="noreferrer"><h2>Distributed Notification Service</h2></a>
+                <p>Built a distributed, event-driven notification microservice using Spring Boot, Apache Kafka, PostgreSQL and Redis. Supports Email, SMS and Push channels with DLQ, retry mechanism, idempotency and Prometheus/Grafana monitoring.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/dolly-2021/Coronavirus-Tracker" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/dolly-2021/Coronavirus-Tracker" target="_blank" rel="noreferrer"><h2>Coronavirus Tracker</h2></a>
-                <p>Designed, Developed an application to track every day cases and provides real-time updates of coronavirus cases</p>
+                <a href="https://github.com/dollykaur/social-app" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/dollykaur/social-app" target="_blank" rel="noreferrer"><h2>Social Application</h2></a>
+                <p>Developed a social media application to connect, share/post what's happening around and discover new people across the globe.</p>
             </div>
-            {/* <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div> */}
+            <div className="project">
+                <a href="https://github.com/dollykaur/Coronavirus-Tracker" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/dollykaur/Coronavirus-Tracker" target="_blank" rel="noreferrer"><h2>Coronavirus Tracker</h2></a>
+                <p>Designed and developed an application to track daily cases and provide real-time updates of coronavirus cases worldwide.</p>
+            </div>
         </div>
     </div>
     );
